@@ -64,21 +64,21 @@ export const projectsData = [
   {
     title: "Expense Tracker",
     description:
-      "",
+      "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
     tags: ["React", "MongoDB",],
     imageUrl: expenseTracker,
   },
   {
     title: "Hotel Reservation System",
     description:
-      "",
+    "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
     tags: ["React", "TypeScript", "Redux"],
     imageUrl: hotelReservation,
   },
   {
     title: "Reddit Clone",
     description: 
-      "",
+    "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
     tags: ["React", "Next.js", "Framer"],
     imageUrl: redditClone,
   },
