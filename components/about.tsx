@@ -4,6 +4,7 @@ import SectionHeading from './section-heading'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '@/context/active-section-context';
+import { time } from 'console';
 
 function About() {
   const {ref, inView} = useInView({
@@ -14,7 +15,7 @@ function About() {
   useEffect(()=>{
     if(inView && Date.now() - timeOfLastClick > 1000)
       setActiveSection("About");
-}, [inView, setActiveSection])
+}, [inView, setActiveSection, timeOfLastClick])
   return (
     <motion.section
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"

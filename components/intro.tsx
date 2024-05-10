@@ -19,7 +19,7 @@ function Intro() {
     useEffect(()=>{
         if(inView && Date.now() - timeOfLastClick > 1000)
             setActiveSection("Home");
-    }, [inView, setActiveSection])
+    }, [inView, setActiveSection, timeOfLastClick])
   return (
     <section id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]' ref={ref}>
         <div className='flex items-center justify-center'>
