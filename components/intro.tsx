@@ -9,9 +9,12 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 
 import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 function Intro() {
    const {ref} = useSectionInView(0.5, "Home");
+  const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
+
   return (
     <section id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]' ref={ref}>
         <div className='flex items-center justify-center'>
@@ -69,6 +72,10 @@ function Intro() {
             <Link 
                 href="#contact"
                 className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+                onClick={()=>{
+                    setActiveSection("Contact")
+                    setTimeOfLastClick(Date.now())
+                  }}
             >
                 Contact me here! <BsArrowRight />
             </Link>

@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Graduate Teaching Assistant | University of Cincinnati",
     location: "Cincinnati, OH",
     description:
-      "Worked as a Taching Assistant for Fall 2023 and Spring 2024 Semester",
+      "Worked as a Teaching Assistant for Fall 2023 and Spring 2024 Semester lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorem lorem lorem lore",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2023 - Apr 2024",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Software Development Engineer 1 | EPAM Systems",
     location: "Hyderabad, IN",
     description:
-      "I worked as a front-end developer for 1 year at EPAM Systems",
+      "I worked as a front-end developer for 1 year at EPAM Systems lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lore",
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2022 - Jul 2023",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Software Engineer Intern | EPAM Systems",
     location: "Remote",
     description:
-      "Worked as an Intern",
+      "Worked as an Intern lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lore",
     icon: React.createElement(FaReact),
     date: "Jan 2022 - Jun 2022",
   },
