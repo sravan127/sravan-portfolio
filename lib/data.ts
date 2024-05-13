@@ -38,24 +38,24 @@ export const experiencesData = [
     title: "Graduate Teaching Assistant | University of Cincinnati",
     location: "Cincinnati, OH",
     description:
-      "Worked as a Teaching Assistant for Fall 2023 and Spring 2024 Semester lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorem lorem lorem lore",
-    icon: React.createElement(CgWorkAlt),
+      "As a Graduate Teaching Assistant at the University of Cincinnati, I played a crucial role in shaping the educational experience for over 200 students per semester. I instructed undergraduate courses in Information Security/Assurance and Computer Networks, actively contributing to curriculum development. Additionally, I provided individualized assistance to students, addressing and resolving over 50 queries per week, resulting in a 20% improvement in average grades.",
+    icon: React.createElement(LuGraduationCap),
     date: "Aug 2023 - Apr 2024",
   },
   {
     title: "Software Development Engineer 1 | EPAM Systems",
     location: "Hyderabad, IN",
     description:
-      "I worked as a front-end developer for 1 year at EPAM Systems lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lore",
-    icon: React.createElement(CgWorkAlt),
+      "During my tenure as a Software Engineer at EPAM Systems, I worked on a client project for EBSCO Information Services. I successfully migrated the Next UI project from React to Next.js, leading to a 30% reduction in load times and an enhanced overall user experience. I developed responsive web components using NextJS, optimizing core web vitals and improving key performance metrics. Moreover, I managed backend operations using Node, ensuring seamless integration and functionality while maintaining uptime of over 99.9%.",
+    icon: React.createElement(FaReact),
     date: "Jul 2022 - Jul 2023",
   },
   {
     title: "Software Engineer Intern | EPAM Systems",
     location: "Remote",
     description:
-      "Worked as an Intern lorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lorelorem lorelorem lorem lorem lorem lorem lorelorem lorem lore",
-    icon: React.createElement(FaReact),
+      "As a Software Engineer Intern at EPAM R&D lab, I collaborated on an internal project with a team of 5 interns, achieving 8 key milestones within a 6-month period while meeting all deadlines. I acquired advanced skills and expertise in Java, mastering core concepts such as multithreading, collections, and design patterns, reducing technical debt by 25%. Our application of theoretical knowledge to real-world scenarios contributed to the creation of a robust and scalable software solution used by over 10,000 employees at EPAM",
+    icon: React.createElement(CgWorkAlt),
     date: "Jan 2022 - Jun 2022",
   },
 ] as const;
