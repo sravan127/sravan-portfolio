@@ -22,11 +22,11 @@ export default function Experience() {
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => {
-          const { ref, inView } = useInView({ threshold: 0 });  //Use useInView hook
+          const { ref, inView } = useInView({ threshold: 0 });  
           return (
             <div key={index} ref={ref} className="vertical-timeline-element">
               <VerticalTimelineElement
-                visible={inView} //instead of true use the inView hook
+                visible={inView} 
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
