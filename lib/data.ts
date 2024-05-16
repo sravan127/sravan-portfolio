@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import expenseTracker from "@/public/expense-tracker.jpg";
-import hotelReservation from "@/public/hotel-reservation.jpg";
-import redditClone from "@/public/reddit-clone.jpg";
+import hotelReservation from "@/public/hotel-reservation.png";
+import redditClone from "@/public/reddit-clone.png";
 
 export const links = [
   {
@@ -64,21 +64,21 @@ export const projectsData = [
   {
     title: "Expense Tracker",
     description:
-      "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
+      "A Full Stack application using the MERN Stack. I implemented key features such as creating and managing expenses, viewing and analyzing expenses over time, and more.",
     tags: ["React", "MongoDB",],
     imageUrl: expenseTracker,
   },
   {
     title: "Hotel Reservation System",
     description:
-    "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
+    "A full-stack web application built using MERN stack which enables users to browse available rooms, make reservations, and manage bookings.",
     tags: ["React", "TypeScript", "Redux"],
     imageUrl: hotelReservation,
   },
   {
     title: "Reddit Clone",
     description: 
-    "a a a a a aa a aa aaaaaa a aaaaaaaa aaaaaa aaaaaa aaaa.a aaa aa a aaa aaa aaaa aaa aaaa.a aa aa aa.a.aa aaaaaa aa.aaa aaaaa",
+    "Developed a Next.js web application replicating Reddit. Implemented features such as: Infinite scrolling for post loading, , ensuring a smooth browsing experience and more",
     tags: ["React", "Next.js", "Framer"],
     imageUrl: redditClone,
   },
