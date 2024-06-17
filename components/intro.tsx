@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image'
 import React, { useEffect } from 'react'
-import profileImg from "@/public/profile-image.jpeg";
+import profileImg from "@/public/profile-image.png";
 import {motion} from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 import Link from 'next/link';
