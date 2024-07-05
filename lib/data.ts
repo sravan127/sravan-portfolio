@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "At PepCoding, I served as an SDE Intern, where I was involved in the development NADOS, an interview preparation platform using the MERN stack. This platform attracted over 10,000 users within the first six months. I analyzed user feedback to iteratively enhance platform features, resulting in a 20% increase in active daily users. Additionally, I conducted rigorous testing and debugging, reducing reported issues by 35% and significantly improving platform stability.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jan 2022 - Jun 2022",
+    date: "Sep 2021 - Jan 2022",
   },
 ] as const;
 
