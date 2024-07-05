@@ -48,13 +48,13 @@ export const experiencesData = [
     description:
       "During my tenure as a Software Engineer at EPAM Systems, I worked on a client project for EBSCO Information Services. I successfully migrated the Next UI project from React to Next.js, leading to a 30% reduction in load times and an enhanced overall user experience. I developed responsive web components using NextJS, optimizing core web vitals and improving key performance metrics. Moreover, I managed backend operations using Node, ensuring seamless integration and functionality while maintaining uptime of over 99.9%.",
     icon: React.createElement(FaReact),
-    date: "Jul 2022 - Jul 2023",
+    date: "Jan 2022 - Jul 2023",
   },
   {
-    title: "Software Engineer Intern | EPAM Systems",
+    title: "Software Engineer Intern | PepCoding",
     location: "Remote",
     description:
-      "As a Software Engineer Intern at EPAM R&D lab, I collaborated on an internal project with a team of 5 interns, achieving 8 key milestones within a 6-month period while meeting all deadlines. I acquired advanced skills and expertise in Java, mastering core concepts such as multithreading, collections, and design patterns, reducing technical debt by 25%. Our application of theoretical knowledge to real-world scenarios contributed to the creation of a robust and scalable software solution used by over 10,000 employees at EPAM",
+      "At PepCoding, I served as an SDE Intern, where I was involved in the development NADOS, an interview preparation platform using the MERN stack. This platform attracted over 10,000 users within the first six months. I analyzed user feedback to iteratively enhance platform features, resulting in a 20% increase in active daily users. Additionally, I conducted rigorous testing and debugging, reducing reported issues by 35% and significantly improving platform stability.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2022 - Jun 2022",
   },
