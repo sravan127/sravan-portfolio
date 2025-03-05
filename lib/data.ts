@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduate Teaching Assistant | University of Cincinnati",
+    title: "Graduate Assistant | University of Cincinnati",
     location: "Cincinnati, OH",
     description:
-      "As a Graduate Teaching Assistant at the University of Cincinnati, I played a crucial role in shaping the educational experience for over 200 students per semester. I instructed undergraduate courses in Information Security/Assurance and Computer Networks, actively contributing to curriculum development. Additionally, I provided individualized assistance to students, addressing and resolving over 50 queries per week, resulting in a 20% improvement in average grades.",
+      "As a Graduate Assistant at the University of Cincinnati, I played a crucial role in shaping the educational experience for over 200 students per semester. I instructed undergraduate courses in Information Security/Assurance and Computer Networks, actively contributing to curriculum development. Additionally, I provided individualized assistance to students, addressing and resolving over 50 queries per week, resulting in a 20% improvement in average grades.",
     icon: React.createElement(LuGraduationCap),
     date: "Aug 2023 - Apr 2024",
   },
